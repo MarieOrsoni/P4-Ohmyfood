@@ -1,12 +1,7 @@
-@media only screen and (max-width: 667px) {
-  /* Your styles for mobile devices */
+.logo-container {
+  display: flex;
+  justify-content: center;
 }
-@media only screen and (min-width: 668px) and (max-width: 1024px) {
-  /* Your styles for tablet devices */
-}
-@media only screen and (min-width: 1025px) {
-  /* Your styles for desktop devices */
-}
-.col-12 {
-  width: 100%;
+.logo-container .logo {
+  justify-content: center;
 }/*# sourceMappingURL=header.css.map */

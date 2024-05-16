@@ -1,0 +1,21 @@
+$primary:  #9356DC;
+$secondary: #FF79DA;
+$tierary: #99E2D0;
+
+$shadow: 0px 2px 4px 0px #00000026;
+$txtfontbold: (
+  font-size: 16px,
+  font-weight: 500
+);
+
+.fa-solid, .fa {padding: 20px;}
+
+@media (max-width: 667px) {
+    body {
+    display: flex;
+    flex-direction: column;
+    max-width: 667px;
+    padding: 20px;
+    margin: 0px;
+}
+}
