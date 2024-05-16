@@ -1,6 +1,60 @@
+// location et fonctionnement
 .location-container {display: flex;
 flex-direction: row;
 align-items: baseline;
 justify-content: center;
-        
+background-color: #eaeaea;
+box-shadow: 0px -3px 4px 0px #00000040;
+padding-left: 0px;
+padding-right: 0px; 
+ .fa-location-dot {padding-right: 20px;}
+ p {font-size: 16px;
+font-weight: 500;}
 }
+.location-exploration-container { background-color: #f6f6f6;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 40px;
+box-shadow: 0px -2px 3px 0px #00000040;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+.txt-location-container {display: flex;
+flex-direction: column;
+justify-content: center;
+}
+p {font-size: 18px;
+font-weight: 300;}
+    }
+//Fonctionnement section
+.fonctionnement-box {padding: 20px;}
+.btn-fonctionnement-container {margin-left: 20px;
+        margin-right: 20px;}
+.btn-one, .btn-two, .btn-three {padding: 20px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    border: none;
+    height: 72px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 15px 0px #00000026;
+}
+.fa-1, .fa-2, .fa-3 {    padding: 5px 5px 5px 5px;
+    background-color: #9356dc;
+    color: white;
+    border-radius: 25px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;}
+.fa-mobile-screen-button, .fa-list-ul, .fa-store {padding: 20px;
+color:#7e7e7e}
+.fa-store {color:#9356dc;}
