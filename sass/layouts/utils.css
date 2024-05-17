@@ -8,10 +8,16 @@ a {
   color: black;
 }
 
+logo {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
 @media (max-width: 667px) {
   body {
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
   }
   .main-container {
     display: flex;

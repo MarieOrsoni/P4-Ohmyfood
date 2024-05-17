@@ -17,10 +17,16 @@ a {
   color: black;
 }
 
+logo {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
 @media (max-width: 667px) {
   body {
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
   }
   .main-container {
     display: flex;
@@ -39,6 +45,7 @@ a {
   background-color: white;
   border-radius: 20px;
   height: 251px;
+  margin-bottom: 25px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 .card-restaurant img {
@@ -46,16 +53,32 @@ a {
   width: 100%;
   border-radius: 20px 20px 0px 0px;
   position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card-restaurant .badge {
   position: absolute;
-  top: 20px; /* Adjust as needed */
-  right: 10px; /* Adjust as needed */
+  top: 20px;
+  right: 10px;
   background: #99E2D0;
   color: #008766;
-  padding: 4px 8px;
-  border-radius: 50%;
+  padding: 8px 10px;
+  /*   border-radius: 50%;*/
   font-size: 12px;
+}
+.card-restaurant .card-content-restaurant {
+  display: flex;
+  flex-direction: column;
+}
+.card-restaurant .card-content-restaurant h3, .card-restaurant .card-content-restaurant p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.card-restaurant .btn-favorite {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
 }
 
 .location-container {
@@ -142,4 +165,16 @@ a {
 
 .fa-store {
   color: #9356dc;
+}
+
+.footer-main-container {
+  background-color: black;
+  display: flex;
+}
+.footer-main-container .footer-logo-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-main-container .footer-links {
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
