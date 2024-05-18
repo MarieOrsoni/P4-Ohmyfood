@@ -1,6 +1,14 @@
+body {font-family: roboto;}
+
 $primary:  #9356DC;
 $secondary: #FF79DA;
 $tierary: #99E2D0;
+
+//button order and explore background color
+$background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+$btn-shadow: 0px 4px 10px 0px #00000040;
+
+$logo-font: Shrikhand;
 
 $shadow: 0px 2px 4px 0px #00000026;
 $txtfontbold: (
@@ -12,10 +20,6 @@ font-weight: 700;}
 a {text-decoration: none;
 color: black;}
 
-logo {
-  fill: currentColor;
-  stroke: currentColor;
-}
 
 @media (max-width: 667px) {
   body {margin-left: 0px;

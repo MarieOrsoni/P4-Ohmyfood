@@ -37,6 +37,14 @@
   font-weight: 300;
 }
 
+.btn-exploration button {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+}
+
 .fonctionnement-box {
   padding: 20px;
 }
@@ -54,7 +62,7 @@
   height: 72px;
   width: 100%;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   align-items: center;
   padding-left: 0px;
