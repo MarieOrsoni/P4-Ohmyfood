@@ -1,0 +1,19 @@
+.btn-search {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 20px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.btn-search:hover {
+  background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+}/*# sourceMappingURL=buttons.css.map */

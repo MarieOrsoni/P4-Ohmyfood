@@ -22,7 +22,6 @@
             background: #99E2D0;
             color:#008766;
             padding: 8px 10px;
-         /*   border-radius: 50%;*/
             font-size: 12px;}
             .card-content-restaurant {
                 display: flex;
@@ -38,3 +37,8 @@
                 bottom: 40px;}
 
 }
+   //Favorite - heart shape - btn-favorite
+   $heartfillcolor:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+
+   .fa heart {background-color: #f6f6f6;
+        }

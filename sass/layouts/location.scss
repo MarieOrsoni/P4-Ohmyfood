@@ -28,24 +28,6 @@ justify-content: center;
 p {font-size: 18px;
 font-weight: 300;}
     }
-//Exploration button - explorez nos restaurants
-    .btn-exploration {
-
-        button {
-        display: flex;
-        align-items: center;
-        font-weight: 500;
-        font-size: 16px;
-        padding:20px;
-        height: 50px;
-        border: none;
-        border-radius: 25px;
-        color:white;       
-        background: $background; //linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-        box-shadow: $btn-shadow;
-
-    }
-     }
 
 //Fonctionnement section
 .fonctionnement-box {padding: 20px;}
