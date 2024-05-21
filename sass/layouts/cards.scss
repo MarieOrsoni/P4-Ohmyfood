@@ -38,7 +38,19 @@
 
 }
    //Favorite - heart shape - btn-favorite
-   $heartfillcolor:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+   $heartfillcolor: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 
-   .fa heart {background-color: #f6f6f6;
-        }
+   $heartmaincolor: #9356DC;
+    .btn-fa-heart {
+            border: 1px solid #9747FF;
+            background-color: #f6f6f6;
+            transition: 1000ms;
+      
+        &:active {transform-origin: 50% bottom;
+                border: none;
+                background-image: $heartfillcolor;
+                transform: scaleX(1);
+
+                        }
+                    }
+                
