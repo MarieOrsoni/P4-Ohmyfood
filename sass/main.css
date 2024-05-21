@@ -34,6 +34,10 @@ a {
     padding: 0px;
     margin: 0px;
   }
+  .footer-logo-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .restaurants {
   background-color: #f6f6f6;
@@ -197,10 +201,6 @@ a {
   font-weight: 400;
   font-size: 18px;
   font-style: italic;
-}
-.footer-main-container .footer-logo-container {
-  display: flex;
-  flex-direction: column;
 }
 .footer-main-container .footer-links {
   color: #FFFFFF;

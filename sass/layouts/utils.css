@@ -25,4 +25,8 @@ a {
     padding: 0px;
     margin: 0px;
   }
+  .footer-logo-container {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=utils.css.map */
