@@ -79,16 +79,16 @@ a {
   bottom: 40px;
 }
 
-.btn-fa-heart {
-  border: 1px solid #9747FF;
-  background-color: #f6f6f6;
-  transition: 1000ms;
+.btn-favorite .fa-heart {
+  color: black;
 }
-.btn-fa-heart:active {
+.btn-favorite .fa-heart:active {
   transform-origin: 50% bottom;
-  border: none;
-  background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
   transform: scaleX(1);
+  z-index: -1;
+  overflow: hidden;
+  animation-fill-mode: forwards;
 }
 
 .location-container {
@@ -111,9 +111,9 @@ a {
 
 .location-exploration-container {
   background-color: #f6f6f6;
+  padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px;
   box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.2509803922);
   display: flex;
   flex-direction: column;
@@ -123,11 +123,17 @@ a {
 .location-exploration-container .txt-location-container {
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
+}
+.location-exploration-container .txt-location-container h2 {
+  display: flex;
   justify-content: center;
 }
-.location-exploration-container p {
+.location-exploration-container .txt-location-container p {
   font-size: 18px;
   font-weight: 300;
+  display: flex;
+  justify-content: center;
 }
 
 .fonctionnement-box {
@@ -224,4 +230,5 @@ a {
 }
 .btn-search:hover {
   background: linear-gradient(200.64deg, #c9abee -5.2%, #FF79DA 110.74%);
+  box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.3490196078);
 }/*# sourceMappingURL=main.css.map */

@@ -14,4 +14,5 @@
 }
 .btn-search:hover {
   background: linear-gradient(200.64deg, #c9abee -5.2%, #FF79DA 110.74%);
+  box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.3490196078);
 }/*# sourceMappingURL=buttons.css.map */
