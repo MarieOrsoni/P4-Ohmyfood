@@ -22,8 +22,9 @@
             background: #99E2D0;
             color:#008766;
             padding: 8px 10px;
-            font-size: 12px;}
-            .card-content-restaurant {
+            font-size: 14px;
+        font-weight: 500;}
+            .card-content {
                 display: flex;
                 flex-direction: column;
             h3, p {
@@ -31,14 +32,14 @@
                 margin-bottom: 5px;
                 margin-left: 10px;}
     }   
-            .btn-favorite {
+           .btn-favorite {
                 position: absolute;
                 right: 40px;
                 bottom: 40px;}
 
 }
    //Favorite - heart shape - btn-favorite
-   $heartfillcolor: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  /* $heartfillcolor: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 
    $heartmaincolor: #9356DC;
     .btn-favorite {
@@ -52,4 +53,4 @@
                 animation-fill-mode: forwards;
             }
         }  
-    }  
+    }  */
