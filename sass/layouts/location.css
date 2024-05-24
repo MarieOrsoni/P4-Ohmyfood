@@ -81,5 +81,6 @@
   padding: 20px;
   color: #7e7e7e;
 }
-
-/*.fa-store {color:#9356dc;}*//*# sourceMappingURL=location.css.map */
+.fa-mobile-screen-button i, .fa-mobile-screen-button:hover, .fa-list-ul i, .fa-list-ul:hover, .fa-store i, .fa-store:hover {
+  color: #9356dc;
+}/*# sourceMappingURL=location.css.map */

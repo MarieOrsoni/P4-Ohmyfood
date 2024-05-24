@@ -22,21 +22,57 @@ a {
   color: black;
 }
 
-/*@media (max-width: 667px) {
-  body {margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom:0px;}
-    .main-container {
+/****** Media queries ***********/
+@media only screen and (min-width: 968px) {
+  .btn-fonctionnement-container {
     display: flex;
-    flex-direction: column;
-    max-width: 667px;
-    padding: 0px;
-    margin: 0px; }
-    .footer-logo-container {
-      display: flex;
-      flex-direction: column;
-      }
-    }*/
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .btn-fonctionnement-container .btn-one, .btn-fonctionnement-container .btn-two, .btn-fonctionnement-container .btn-three {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .restaurants {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .restaurants .cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .restaurants .cards-for-restaurant .card-restaurant {
+    width: 45%;
+  }
+  .footer {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .btn-fonctionnement-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .btn-fonctionnement-container .btn-one, .btn-fonctionnement-container .btn-two, .btn-fonctionnement-container .btn-three {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .restaurants {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .restaurants .cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+  }
+  .restaurants .cards-for-restaurant .card-restaurant {
+    width: 45%;
+  }
+}
 .restaurants {
   background-color: #f6f6f6;
   padding: 20px;
@@ -180,32 +216,45 @@ a {
   padding: 20px;
   color: #7e7e7e;
 }
+.fa-mobile-screen-button i, .fa-mobile-screen-button:hover, .fa-list-ul i, .fa-list-ul:hover, .fa-store i, .fa-store:hover {
+  color: #9356dc;
+}
 
-/*.fa-store {color:#9356dc;}*/
-.footer-main-container {
+.footer {
   background-color: black;
   display: flex;
+  flex-direction: column;
   padding-bottom: 20px;
+  /*.links {
+      padding: 10px 0px 10px;*/
 }
-.footer-main-container .footer-container {
+.footer .footer-container {
   margin-left: 20px;
 }
-.footer-main-container .footer-logo {
+.footer .footer-logo {
   font-family: Shrikhand;
   color: white;
   font-weight: 400;
   font-size: 18px;
   font-style: italic;
 }
-.footer-main-container .footer-links {
+.footer .footer-links {
+  display: flex;
+  flex-direction: column;
+}
+.footer .links {
+  display: flex;
+  flex-direction: column;
   color: #FFFFFF;
   font-weight: 500;
   font-size: 16px;
 }
-.footer-main-container .links {
-  padding: 10px 0px 10px;
+.footer .links .links, .footer .links a {
+  display: flex;
+  flex-direction: row;
 }
-.footer-main-container .fa-solid {
+
+.fa-solid {
   padding-right: 10px;
 }
 

@@ -63,5 +63,7 @@ justify-content: center;}
     align-items: center;
     margin-left: -15px;}
 .fa-mobile-screen-button, .fa-list-ul, .fa-store {padding: 20px;
-color:#7e7e7e}
-/*.fa-store {color:#9356dc;}*/
+color:#7e7e7e;
+& i, &:hover {color: #9356dc;} 
+}
+

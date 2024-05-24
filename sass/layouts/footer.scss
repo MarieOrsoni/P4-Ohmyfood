@@ -1,6 +1,7 @@
-.footer-main-container {
+.footer {
     background-color: black;
     display: flex;
+    flex-direction: column;
     padding-bottom: 20px;
         .footer-container {
         margin-left: 20px;
@@ -12,18 +13,25 @@
         font-size:  18px;
         font-style: italic;
     }
+    .footer-links {display: flex;
+    flex-direction: column;}
          //.footer-logo-container {display: flex; flex-direction: column;}
-        .footer-links {
+        .links {
+            display: flex;
+            flex-direction: column;
             color:#FFFFFF;
             font-weight: 500;
             font-size: 16px;
+            
+        .links, a {display: flex;
+        flex-direction: row;}
     }
-        .links {
-            padding: 10px 0px 10px;
+        /*.links {
+            padding: 10px 0px 10px;*/
     }
         .fa-solid {
             padding-right: 10px;
     }
-}
+
 
     
