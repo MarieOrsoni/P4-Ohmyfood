@@ -6,7 +6,10 @@
 .btn-favorite i {
   position: absolute;
 }
-.btn-favorite__full {
+.btn-favorite i .fa-solid {
+  position: hidden;
+}
+.btn-favorite .fa-solid {
   opacity: 0;
   background-image: linear-gradient(#9356dc, #ff79da);
   background-clip: text;
@@ -14,7 +17,7 @@
   color: transparent;
   transition: 2s ease-out;
 }
-.btn-favorite__full:hover, .btn-favorite__full:active {
+.btn-favorite .fa-solid:hover, .btn-favorite .fa-solid:active {
   display: inline;
   opacity: 1;
   background-image: linear-gradient(#9356dc, #ff79da);
