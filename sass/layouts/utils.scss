@@ -5,6 +5,7 @@ $primary:  #9356DC;
 $secondary: #FF79DA;
 $tierary: #99E2D0;
 $logo-font: Shrikhand;
+$title: Shrikhand;
 
 $shadow: 0px 2px 4px 0px #00000026;
 $txtfontbold: (
@@ -23,9 +24,8 @@ color: black;}
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		.btn-one, .btn-two, .btn-three {padding-top: 10px;
-		padding-bottom: 10px;
-	}
+		/*.btn-one, .btn-two, .btn-three {padding-top: 10px;
+			}*/
 }
 .restaurants {
 	padding-left: 60px;
@@ -46,7 +46,7 @@ color: black;}
 
 //Desktop devices ( less/equal than 1440px)
 @media only screen and (min-width: 1024px) {
-  .btn-fonctionnement-container { display: flex;
+  /* .btn-fonctionnement-container { display: flex;
     flex-direction: row;
   justify-content: space-around;
   .btn-one, .btn-two, .btn-three {padding-top: 10px;
@@ -58,9 +58,9 @@ color: black;}
   flex-wrap: wrap;
   justify-content: space-around;
   row-gap: 30px;
-.card-restaurant {width: 45%;}
+.card-restaurant {width: 45%;}*/
 }
-}
-}
+
+
 
 

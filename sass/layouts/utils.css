@@ -19,10 +19,8 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  }
-  .btn-fonctionnement-container .btn-one, .btn-fonctionnement-container .btn-two, .btn-fonctionnement-container .btn-three {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /*.btn-one, .btn-two, .btn-three {padding-top: 10px;
+    	}*/
   }
   .restaurants {
     padding-left: 60px;
@@ -41,26 +39,17 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .btn-fonctionnement-container {
-    display: flex;
-    flex-direction: row;
+  /* .btn-fonctionnement-container { display: flex;
+      flex-direction: row;
     justify-content: space-around;
+    .btn-one, .btn-two, .btn-three {padding-top: 10px;
+      padding-bottom: 10px;}
   }
-  .btn-fonctionnement-container .btn-one, .btn-fonctionnement-container .btn-two, .btn-fonctionnement-container .btn-three {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .restaurants {
-    padding-left: 60px;
+  .restaurants {padding-left: 60px;
     padding-right: 60px;
-  }
-  .restaurants .cards-for-restaurant {
-    display: flex;
+  .cards-for-restaurant {display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     row-gap: 30px;
-  }
-  .restaurants .cards-for-restaurant .card-restaurant {
-    width: 45%;
-  }
+  .card-restaurant {width: 45%;}*/
 }/*# sourceMappingURL=utils.css.map */

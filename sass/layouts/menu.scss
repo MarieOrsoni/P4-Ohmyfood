@@ -1,0 +1,58 @@
+.menu {padding-right:20px;
+        padding-left:20px;
+background-color: #eaeaea;}
+
+.logo-container {align-items: center;}
+
+.arrow {font-size: 16px;}
+
+.photo {height: 275px;
+        width: 100%;}
+
+.euro {font-weight: 700;}
+.fa-check {color: $tierary;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: white;
+            }
+
+
+.page-title { font-family: $title;
+                font-size: 28px;
+                font-weight: 400;
+                font-style: italic;
+                }
+.title {display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        
+        .btn-favorite { padding-bottom: 10px;
+                        padding-left: 50px;
+    }
+    }
+.card-menu { background-color: white;
+    border-radius: 20px;
+    height: 69px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4.01px 15.04px 0px #0000001A;
+
+   .card-content {display: flex;
+                 flex-direction: column;
+                 margin-left: 20px;
+                 padding-top: 5px;
+                         .card-title {font-size: 18px;
+                            font-weight: 500;
+                             margin-top: 0px;
+                            margin-bottom: 0px;
+}
+                .card-subtitle {font-size: 15px;
+                            font-weight: 300;
+                            margin-bottom: 0px;
+                            margin-top: 5px;
+}
+    /*.check-choice & fa-check {position: absolute;
+        margin-left: 330px;
+        margin-top: -40px;}*/
+}
+}

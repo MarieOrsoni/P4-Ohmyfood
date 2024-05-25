@@ -65,12 +65,12 @@
 }
 
 .fa-1, .fa-2, .fa-3 {
-  padding: 5px 5px 5px 5px;
+  padding: 5px 6px 5px 6px;
   background-color: #9356dc;
   color: white;
   border-radius: 25px;
   width: 15px;
-  height: 15px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
