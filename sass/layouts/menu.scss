@@ -13,9 +13,10 @@ background-color: #eaeaea;}
 .fa-check {color: $tierary;
             padding: 10px;
             border-radius: 50%;
-            background-color: white;
+           /* background-color: white;*/
             }
 
+//Restaurant name and favorite button
 
 .page-title { font-family: $title;
                 font-size: 28px;
@@ -30,7 +31,14 @@ background-color: #eaeaea;}
         .btn-favorite { padding-bottom: 10px;
                         padding-left: 50px;
     }
-    }
+}
+    //menu header formatting for menu pages
+    .menu-header { font-size: 20px;
+        font-weight: 300;
+       border-bottom:3px solid $tierary;
+        width: 40px;}
+
+    //Card for individual menu items
 .card-menu { background-color: white;
     border-radius: 20px;
     height: 69px;
@@ -50,9 +58,12 @@ background-color: #eaeaea;}
                             font-weight: 300;
                             margin-bottom: 0px;
                             margin-top: 5px;
-}
-    /*.check-choice & fa-check {position: absolute;
-        margin-left: 330px;
-        margin-top: -40px;}*/
-}
+}  
+                .euro, .fa-check {display: flex;
+                        flex-direction: row-reverse;
+                        margin-right: 50px;
+                        margin-top: -25px;
+               /* & fa-check {position: hidden;}*/
+            }
+} 
 }
