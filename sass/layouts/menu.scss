@@ -1,13 +1,25 @@
-.menu {padding-right:20px;
+/*.menu {padding-right:20px;
         padding-left:20px;
-background-color: #eaeaea;}
+background-color: #eaeaea;}*/
 
-.logo-container {align-items: center;}
+.logo-container {display: flex;
+    justify-content: center;}
+.logo {justify-content: center;}
 
-.arrow {font-size: 16px;}
+.nav-bar { margin-left: 20px;
+             margin-top: 20px;
+             margin-bottom: -55px;
+}
+.arrow {font-size: 30px;
+    padding: 20px;
+    padding-top: 20px;}
 
 .photo {height: 275px;
-        width: 100%;}
+        width: 100%;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+    }
 
 .euro {font-weight: 700;}
 .fa-check {color: $tierary;
@@ -23,20 +35,30 @@ background-color: #eaeaea;}
                 font-weight: 400;
                 font-style: italic;
                 }
+
 .title {display: flex;
         flex-direction: row;
         justify-content: left;
         align-items: center;
-        
+        padding-top: 25px;   
         .btn-favorite { padding-bottom: 10px;
                         padding-left: 50px;
-    }
+}
 }
     //menu header formatting for menu pages
+.menu {padding-right:20px;
+        padding-left:20px;
+        background-color: #eaeaea;
+        margin-top: -50px;
+        border-radius: 40px 40px 0px 0px;
+        .starters, .main-course, .desserts, .btn-explore {padding-bottom: 20px;}
+    }
+
     .menu-header { font-size: 20px;
         font-weight: 300;
        border-bottom:3px solid $tierary;
         width: 40px;}
+    /*.starters, .main-course, .desserts, .btn-explore {padding-bottom: 20px;}*/
 
     //Card for individual menu items
 .card-menu { background-color: white;
