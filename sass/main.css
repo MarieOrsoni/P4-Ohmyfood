@@ -22,69 +22,6 @@ a {
   color: black;
 }
 
-/****** Media queries ***********/
-@media only screen and (min-width: 768px) {
-  .btn-fonctionnement-container {
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-  }
-  .restaurants {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .restaurants .cards-for-restaurant {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    gap: 30px;
-  }
-  .restaurants .cards-for-restaurant .card-restaurant {
-    width: 45%;
-  }
-  .footer-links {
-    display: flex;
-    flex-direction: row;
-  }
-  .menu {
-    padding-right: 80px;
-    padding-left: 80px;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: -30px;
-  }
-}
-@media only screen and (min-width: 1021px) {
-  .btn-fonctionnement-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .btn-fonctionnement-container .btn-one, .btn-fonctionnement-container .btn-two, .btn-fonctionnement-container .btn-three {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .restaurants {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .restaurants .cards-for-restaurant {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    row-gap: 30px;
-  }
-  .restaurants .cards-for-restaurant .card-restaurant {
-    width: 45%;
-  }
-  .menu {
-    padding-right: 80px;
-    padding-left: 80px;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-top: -30px;
-  }
-}
 .restaurants {
   background-color: #f6f6f6;
   padding: 20px;
@@ -130,6 +67,51 @@ a {
   bottom: 40px;
 }
 
+/****** Media queries ***********/
+@media only screen and (min-width: 620px) {
+  .restaurants {
+    padding: 20px 80px;
+  }
+  .restaurants .cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+  }
+  .restaurants .cards-for-restaurant .card-restaurant {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1120px) {
+  .restaurants {
+    padding: 50px 120px;
+  }
+  .restaurants .cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    gap: 20px;
+  }
+  .restaurants .cards-for-restaurant .card-restaurant {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .restaurants {
+    padding: 50px 120px;
+  }
+  .restaurants .cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    gap: 20px;
+  }
+  .restaurants .cards-for-restaurant .card-restaurant {
+    width: 480px;
+  }
+}
 .location-container {
   display: flex;
   align-items: center;
@@ -180,13 +162,12 @@ a {
   margin-right: 20px;
 }
 
-.btn-one, .btn-two, .btn-three {
-  padding: 20px;
+.btn {
   background-color: #f6f6f6;
   border-radius: 20px;
   border: none;
-  /*height: 72px;
-  width: 100%;*/
+  height: 72px;
+  width: 335px;
   font-size: 16px;
   font-weight: 600;
   display: flex;
@@ -196,12 +177,12 @@ a {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
 }
 
-.fa-1, .fa-2, .fa-3 {
+.fonct-number {
   padding: 5px 6px 5px 6px;
   background-color: #9356dc;
   color: white;
   border-radius: 25px;
-  width: 15px;
+  width: 20px;
   height: 20px;
   display: flex;
   justify-content: center;
@@ -217,44 +198,77 @@ a {
   color: #9356dc;
 }
 
+/****** Media queries ***********/
+@media only screen and (min-width: 620px) {
+  .fonctionnement-box {
+    padding: 30px 80px;
+  }
+}
+@media only screen and (min-width: 895px) {
+  .fonctionnement-box {
+    padding: 30px 80px;
+  }
+  .btn-fonctionnement-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  .btn-fonctionnement-container .fonct-number {
+    padding: 6px 8px 6px 8px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .fonctionnement-box {
+    padding: 50px 120px;
+  }
+  .btn-fonctionnement-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 .footer {
   background-color: black;
-  /* display: flex;
-   flex-direction: column;*/
-  padding-bottom: 20px;
-  /*.links {
-      padding: 10px 0px 10px;*/
-}
-.footer .footer-container {
-  margin-left: 20px;
+  padding: 20px;
 }
 .footer .footer-logo {
   font-family: Shrikhand;
   color: white;
-  font-weight: 400;
-  font-size: 18px;
   font-style: italic;
 }
-.footer .footer-links {
+.footer-links {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
-.footer .links {
-  display: flex;
-  flex-direction: column;
-  color: #FFFFFF;
-  font-weight: 500;
-  font-size: 16px;
+.footer-links a {
+  color: white;
 }
-.footer .links .links, .footer .links a {
-  display: flex;
-  flex-direction: row;
-}
-
-.fa-solid {
+.footer .links__icon {
   padding-right: 10px;
 }
 
+@media only screen and (min-width: 895px) {
+  .footer-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 20px 10px 0px;
+  }
+  .footer-container .footer-logo {
+    margin: 0px;
+    padding: 0px 10px 0px 80px;
+  }
+  .footer-container .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 10px;
+  }
+  .footer-container .links__plus {
+    padding-left: 40px;
+  }
+}
 .btn-explore {
   display: flex;
   flex-direction: row;
@@ -278,6 +292,7 @@ a {
   cursor: pointer;
   padding-bottom: 26px;
   padding-right: 29px;
+  font-size: 21px;
 }
 .btn-favorite i {
   position: absolute;
@@ -303,9 +318,6 @@ a {
   transition: 300ms ease-out;
 }
 
-/*.menu {padding-right:20px;
-        padding-left:20px;
-background-color: #eaeaea;}*/
 .logo-container {
   display: flex;
   justify-content: center;
@@ -336,17 +348,12 @@ background-color: #eaeaea;}*/
      object-fit: cover;
 }
 
-.euro {
-  font-weight: 700;
-}
-
-.fa-check {
-  color: #99E2D0;
-  padding: 10px;
-  border-radius: 50%;
-  /* background-color: white;*/
-}
-
+/*.euro {font-weight: 700;}
+.fa-check {color: $tierary;
+            padding: 10px;
+            border-radius: 50%;
+           /* background-color: white;
+            }*/
 .page-title {
   font-family: Shrikhand;
   font-size: 28px;
@@ -364,6 +371,7 @@ background-color: #eaeaea;}*/
 .title .btn-favorite {
   padding-bottom: 10px;
   padding-left: 50px;
+  font-size: 25px;
 }
 
 .menu {
@@ -385,6 +393,58 @@ background-color: #eaeaea;}*/
 }
 
 /*.starters, .main-course, .desserts, .btn-explore {padding-bottom: 20px;}*/
+/*.card-menu { background-color: white;
+    border-radius: 20px;
+    height: 69px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4.01px 15.04px 0px #0000001A;
+
+   .card-content {display: flex;
+                 flex-direction: column;
+                 margin-left: 20px;
+                 padding-top: 5px;
+                         .card-title {font-size: 18px;
+                            font-weight: 500;
+                             margin-top: 0px;
+                            margin-bottom: 0px;
+}
+                .card-subtitle {font-size: 15px;
+                            font-weight: 300;
+                            margin-bottom: 0px;
+                            margin-top: 5px;
+}  
+                .euro, .fa-check {display: flex;
+                        flex-direction: row-reverse;
+                        margin-right: 50px;
+                        margin-top: -25px;
+               /* & fa-check {position: hidden;}
+            }
+} 
+}*/
+.euro {
+  font-weight: 700;
+}
+
+.fa-check {
+  color: #99E2D0;
+  padding: 10px;
+  border-radius: 50%;
+  /* background-color: white;*/
+}
+
+.card-menu .check-choice {
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+  margin-top: -25px;
+  margin-right: 20px;
+}
+.card-menu fa-check {
+  position: absolute;
+  /*right: 30px;
+  margin-top: -25px;*/
+}
+
 .card-menu {
   background-color: white;
   border-radius: 20px;
@@ -416,17 +476,4 @@ background-color: #eaeaea;}*/
   margin-right: 50px;
   margin-top: -25px;
   /* & fa-check {position: hidden;}*/
-}
-
-.card-menu .check-choice {
-  cursor: pointer;
-  display: flex;
-  justify-content: right;
-  margin-top: -25px;
-  margin-right: 20px;
-}
-.card-menu fa-check {
-  position: absolute;
-  /*right: 30px;
-  margin-top: -25px;*/
 }/*# sourceMappingURL=main.css.map */

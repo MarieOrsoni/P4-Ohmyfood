@@ -48,13 +48,12 @@
   margin-right: 20px;
 }
 
-.btn-one, .btn-two, .btn-three {
-  padding: 20px;
+.btn {
   background-color: #f6f6f6;
   border-radius: 20px;
   border: none;
-  /*height: 72px;
-  width: 100%;*/
+  height: 72px;
+  width: 335px;
   font-size: 16px;
   font-weight: 600;
   display: flex;
@@ -64,12 +63,12 @@
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
 }
 
-.fa-1, .fa-2, .fa-3 {
+.fonct-number {
   padding: 5px 6px 5px 6px;
   background-color: #9356dc;
   color: white;
   border-radius: 25px;
-  width: 15px;
+  width: 20px;
   height: 20px;
   display: flex;
   justify-content: center;
@@ -83,4 +82,35 @@
 }
 .fa-mobile-screen-button i, .fa-mobile-screen-button:hover, .fa-list-ul i, .fa-list-ul:hover, .fa-store i, .fa-store:hover {
   color: #9356dc;
+}
+
+/****** Media queries ***********/
+@media only screen and (min-width: 620px) {
+  .fonctionnement-box {
+    padding: 30px 80px;
+  }
+}
+@media only screen and (min-width: 895px) {
+  .fonctionnement-box {
+    padding: 30px 80px;
+  }
+  .btn-fonctionnement-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  .btn-fonctionnement-container .fonct-number {
+    padding: 6px 8px 6px 8px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .fonctionnement-box {
+    padding: 50px 120px;
+  }
+  .btn-fonctionnement-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=location.css.map */

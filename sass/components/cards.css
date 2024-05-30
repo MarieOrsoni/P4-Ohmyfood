@@ -41,4 +41,50 @@
   position: absolute;
   right: 40px;
   bottom: 40px;
+}
+
+/****** Media queries ***********/
+@media only screen and (min-width: 620px) {
+  .restaurants {
+    padding: 20px 80px;
+  }
+  .restaurants .cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+  }
+  .restaurants .cards-for-restaurant .card-restaurant {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1120px) {
+  .restaurants {
+    padding: 50px 120px;
+  }
+  .restaurants .cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    gap: 20px;
+  }
+  .restaurants .cards-for-restaurant .card-restaurant {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .restaurants {
+    padding: 50px 120px;
+  }
+  .restaurants .cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    gap: 20px;
+  }
+  .restaurants .cards-for-restaurant .card-restaurant {
+    width: 480px;
+  }
 }/*# sourceMappingURL=cards.css.map */

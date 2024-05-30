@@ -2,7 +2,7 @@ body {font-family: roboto;
 margin: 0;}
 
 $primary:  #9356DC;
-$secondary: #FF79DA;
+$secondary: #9e5a8b;
 $tierary: #99E2D0;
 $logo-font: Shrikhand;
 $title: Shrikhand;
@@ -17,73 +17,3 @@ font-weight: 700;}
 a {text-decoration: none;
 color: black;}
 
-
-/****** Media queries ***********/
-// Medium devices (tablets, less/equal than 1024px)
-@media only screen and (min-width: 768px) {
-	//Front page responsive 
-  //Buttons 1-2-3 fonctionnement
-  .btn-fonctionnement-container {
-		display: flex;
-		flex-direction: row;
-		gap:25px;
-}
-//Restaurants cards
-.restaurants {
-	padding-left: 60px;
-	padding-right: 60px;
-	.cards-for-restaurant {display: flex;
-	flex-wrap: wrap;
-	row-gap: 30px;
-  gap: 30px;
-	.card-restaurant {width: 45%;
-}
-} 
-}
-//Footer for horizontal alignement - it does not work!
-.footer-links { display:flex; flex-direction: row;}
-
-//Responsive for menu pages
-  .menu { padding-right: 80px;
-         padding-left: 80px;
-         margin-left: 120px;
-         margin-right: 120px;
-         margin-top: -30px;
-  }
-	}
-
-//Desktop devices ( less/equal than 1440px)
-@media only screen and (min-width: 1021px) {
-//Front page responsive
-//buttons 1-2-3 fonctionnement
-  .btn-fonctionnement-container { 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-           .btn-one, .btn-two, .btn-three {
-              padding-top: 10px;
-              padding-bottom: 10px;
-}
-}
-//Restaurants cards
-    .restaurants {
-        padding-left: 60px;
-        padding-right: 60px;
-          .cards-for-restaurant {display: flex;
-              flex-wrap: wrap;
-              justify-content: space-around;
-               row-gap: 30px;
-                 .card-restaurant {width: 45%;
-}
-}
-}
-//Footer but i cant make it work!
-
-//Responsive for menu pages
-  .menu { padding-right: 80px;
-  padding-left: 80px;
-  margin-left: 180px;
-  margin-right: 180px;
-  margin-top: -30px;}
-
-}
