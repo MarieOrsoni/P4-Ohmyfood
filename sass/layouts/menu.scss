@@ -8,7 +8,7 @@
              margin-top: 20px;
              margin-bottom: -55px;
 }
-.arrow {font-size: 30px;
+.arrow {font-size: 25px;
     padding: 20px;
     padding-top: 20px;}
 
@@ -33,9 +33,9 @@
         justify-content: left;
         align-items: center;
         padding-top: 25px;   
-        .btn-favorite { padding-bottom: 10px;
-                        padding-left: 50px;
-                        font-size: 25px;
+        .btn-favorite {
+             padding-left: 50px;
+             font-size: 25px;
 }
 }
     //menu header formatting for menu pages
@@ -51,6 +51,30 @@
         font-weight: 300;
        border-bottom:3px solid $tierary;
         width: 40px;}
-    /*.starters, .main-course, .desserts, .btn-explore {padding-bottom: 20px;}*/
+
+        /****** Media queries ***********/
+
+    //Medium size screen devices (screen size from 700 to 1100 wide)
+@media only screen and (min-width: 700px) {
+    .photo {height: 300px;}
+    .menu {margin-right:100px;
+            margin-left:100px;}
+}
+//Medium size screen (from 900 to 1100 wide)
+//padding for menu
+@media only screen and (min-width: 900px) {
+    .menu {padding-left: 100px;
+            padding-right: 100px;}
+}
+//Desktop/Large size screen (from 1100 wide)
+@media only screen and (min-width: 1100px) {
+    .photo {height: 385px;}
+    .menu {padding-left: 120px;
+            padding-right: 120px;
+            margin-right:120px;
+            margin-left: 120px;}
+    .title {justify-content: center;}
+    .card-menu {width: 635px;}
+}
 
     

@@ -334,7 +334,7 @@ a {
 }
 
 .arrow {
-  font-size: 30px;
+  font-size: 25px;
   padding: 20px;
   padding-top: 20px;
 }
@@ -348,12 +348,6 @@ a {
      object-fit: cover;
 }
 
-/*.euro {font-weight: 700;}
-.fa-check {color: $tierary;
-            padding: 10px;
-            border-radius: 50%;
-           /* background-color: white;
-            }*/
 .page-title {
   font-family: Shrikhand;
   font-size: 28px;
@@ -369,7 +363,6 @@ a {
   padding-top: 25px;
 }
 .title .btn-favorite {
-  padding-bottom: 10px;
   padding-left: 50px;
   font-size: 25px;
 }
@@ -392,35 +385,39 @@ a {
   width: 40px;
 }
 
-/*.starters, .main-course, .desserts, .btn-explore {padding-bottom: 20px;}*/
-/*.card-menu { background-color: white;
-    border-radius: 20px;
-    height: 69px;
-    margin-bottom: 25px;
-    box-shadow: 0px 4.01px 15.04px 0px #0000001A;
-
-   .card-content {display: flex;
-                 flex-direction: column;
-                 margin-left: 20px;
-                 padding-top: 5px;
-                         .card-title {font-size: 18px;
-                            font-weight: 500;
-                             margin-top: 0px;
-                            margin-bottom: 0px;
+/****** Media queries ***********/
+@media only screen and (min-width: 700px) {
+  .photo {
+    height: 300px;
+  }
+  .menu {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
 }
-                .card-subtitle {font-size: 15px;
-                            font-weight: 300;
-                            margin-bottom: 0px;
-                            margin-top: 5px;
-}  
-                .euro, .fa-check {display: flex;
-                        flex-direction: row-reverse;
-                        margin-right: 50px;
-                        margin-top: -25px;
-               /* & fa-check {position: hidden;}
-            }
-} 
-}*/
+@media only screen and (min-width: 900px) {
+  .menu {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .photo {
+    height: 385px;
+  }
+  .menu {
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .title {
+    justify-content: center;
+  }
+  .card-menu {
+    width: 635px;
+  }
+}
 .euro {
   font-weight: 700;
 }
