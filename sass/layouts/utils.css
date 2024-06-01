@@ -11,4 +11,7 @@ h2 {
 a {
   text-decoration: none;
   color: black;
-}/*# sourceMappingURL=utils.css.map */
+}
+
+/*.new-page {transform-origin: left; }
+.new-page:active {transition: all 10s;}*//*# sourceMappingURL=utils.css.map */

@@ -76,5 +76,13 @@
     .title {justify-content: center;}
     .card-menu {width: 635px;}
 }
-
+//Desktop screen from 1300px wide
+@media only screen and (min-width: 1300px) {
+    .photo {height: 420px;}
+    .menu {margin-top: -35px;
+        padding-left: 180px;
+            padding-right: 180px;
+            margin-right: 180px;
+            margin-left: 180px;}
+}
     
