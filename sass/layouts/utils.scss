@@ -1,6 +1,9 @@
 body {font-family: roboto;
 margin: 0;}
-
+p , h3 , h4 {
+  margin: 0;
+  padding: 0;
+}
 $primary:  #9356DC;
 $secondary: #FF79DA;
 $tierary: #99E2D0;

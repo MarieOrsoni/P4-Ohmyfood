@@ -2,15 +2,22 @@
  .card-menu { background-color: white;
     border-radius: 20px;
     display: flex;
-    height: 69px;
+    /*height: 69px;*/
     margin-bottom: 25px;
     box-shadow: 0px 4.01px 15.04px 0px #0000001A;
-
+    
+    &:hover {
+        .check-choice {
+            width: 60px
+        }
+    }
+}
    .card-content {display: flex;
-                 flex-direction: column;
-                 margin-left: 20px;
-                 padding-top: 5px;
-                         .card-title {font-size: 18px;
+               /*  flex-direction: column;
+                 margin-left: 20px;*/
+                 padding-top: 5px;}
+
+                       /*  .card-title {font-size: 18px;
                             font-weight: 500;
                              margin-top: 0px;
                             margin-bottom: 0px;
@@ -18,13 +25,17 @@
                 .card-subtitle {font-size: 15px;
                             font-weight: 300;
                             margin-bottom: 0px;
-                            margin-top: 5px;
-}  
-                .euro, .fa-check {display: flex;
-                        flex-direction: row-reverse;
-                        margin-right: 50px;
-                        margin-top: -25px;
-               /* & fa-check {position: hidden;}*/
-            }
-} 
-}
+                            margin-top: 5px;*/
+
+    .menu-price {display: flex;
+                    width: 60px;
+                    align-items: flex-end;
+                    justify-content: end;
+                    padding: 0 25px 15px 0;
+                    background-color: $tierary;
+ }
+    .check-choice {
+        width: 0;
+        overflow: hidden;
+        
+    }

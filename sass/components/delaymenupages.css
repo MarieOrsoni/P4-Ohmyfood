@@ -1,0 +1,59 @@
+.delay1 {
+  animation-delay: 1s;
+}
+
+.delay2 {
+  animation-delay: 2s;
+}
+
+.delay3 {
+  animation-delay: 3s;
+}
+
+/*.euro {font-weight: 700;}
+.fa-check {color: $tierary;
+            padding: 10px;
+            border-radius: 50%;
+           background-color: white;
+            }
+
+.card-menu { 
+        .check-choice {
+                 cursor: pointer;
+                 /*right: -50px;
+                 top: 20px;
+                 margin-top: -30px;
+                 margin-right: 30px;
+                 right: 80px;
+                 position: absolute;
+                 overflow: hidden;
+                 background-color: $tierary;
+                 transform-origin: right;
+
+
+                 /*display: flex;
+                 opacity: 1; 
+                justify-content: right;
+               margin-top: -25px;
+                margin-right: 20px;
+                &:hover,&:active {width: 300px;
+                opacity:1;
+        transition: all .75s ease-in-out;}
+        .euro {background-color: white;
+        padding: 60px;
+        opacity: 1;
+        transform: translate(600px, 0);
+        transition: all .75 ease-in-out;}
+        } 
+        & fa-check {opacity: 1;
+                color: $tierary;
+                right: 50px;
+                top: -5px;
+                background: white;
+                border-radius: 50%;
+                padding: 10px;
+                /*position: absolute;
+                right: 30px;
+                        margin-top: -25px;}
+                &:hover,&:active {opacity: 1;}
+    *//*# sourceMappingURL=delaymenupages.css.map */
