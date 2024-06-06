@@ -1,111 +1,128 @@
 //loader 
-.loading-container {
-    box-sizing: border-box;
-  }
-  
-  .loader {
+.loader {
     width: 100%;
-    height: 100vh;
-    display: flex;
+    height: 100%;
+    background-color: $primary;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147, 86, 220,1) 0.1%, rgba(255, 121, 218,1) 94.2% );
-    background-size: 100%;
-    font-family: $logo-font;
-    overflow: hidden;
-  }
-  
-  .loading-container {
-    width: 100%;
-    max-width: 520px;
-    text-align: center;
-    color: #99E2D0;
-    position: relative;
-    margin: 0 32px;
-    /*animation: hide 5s ease-out center;*/
-    
-    &:before {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 4px;
-      background-color: #99E2D0;
-      bottom: 0;
-      left: 0;
-      border-radius: 10px;
-      animation: movingLine 2.4s infinite ease-in-out;
-    }
-  }
-  
-  @keyframes movingLine {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-  
-    33.3%, 66% {
-      opacity: 0.8;
-      width: 100%;
-    }
-    
-    85% {
-      width: 0;
-      left: initial;
-      right: 0;
-      opacity: 1;
-    }
-  
-    100% {
-     opacity: 0;
-     width: 0;
-    }
-  }
-  
-  .loading-text {
-    font-size: 5vw;
-    line-height: 64px;
-    letter-spacing: 10px;
-    margin-bottom: 32px;
-    display: flex;
-    justify-content: space-evenly;
-    span {
-      animation: moveLetters 2.4s infinite ease-in-out;
-      transform: translatex(0);
-      position: relative;
-      display: inline-block;
-      opacity: 0;
-      text-shadow: 0px 2px 10px rgba(46, 74, 81, 0.3); 
-    }
-  }
-  
-  @for $i from 1 through 7 {
-    .loading-text span:nth-child(#{$i}) {
-      animation-delay: $i * 0.1s;
-    }
-  }
-  
-  @keyframes moveLetters {
-    0% {
-      transform: translateX(-15vw);
-      opacity: 0;
-    }
-    
-    33.3%, 66% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    
-    100% {
-      transform: translateX(15vw);
-      opacity: 0;
-    }
-  }
-  @keyframes hide {
-    0% {
-        opacity: 1;}
-    30%, 60% {opacity: .5;}
-    100% {opacity: 0;}
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 1;
 
-  }
+    animation: load 2s forwards;
+    
+    &--animation {
+        border-top: 10px solid $tierary;
+        border-right: 10px solid $tierary;
+        border-bottom: 10px solid $secondary;
+        border-left: 10px solid $secondary;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        z-index: 10;
+
+        animation: loading 3s;
+    }
+    &--anim2 {border-top: 10px solid $secondary;
+                border-right: 10px solid $tierary;
+                border-bottom: 10px solid $secondary;
+                border-left: 10px solid $secondary;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+            animation: loading2 3s;
+        }
+      
+    @keyframes loading {
+
+        0% {
+          transform: rotate(-45deg);
+        }
+      
+        100% {
+          transform: rotate(750deg);
+        }
+      
+      }
+      
+      @keyframes load {
+      
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      
+        80% {
+          opacity: 1;
+        }
+      
+        92% {opacity: 0.8;
+        }   
+          
+        99% {transform: scale(1);
+        }
+      
+        100% {
+          transform: scale(0);
+          opacity: 0;
+        }
+      }
+      @keyframes loading2 {  
+        0% {
+        transform: rotate(45deg);
+      }
+        50% {
+            transform: rotate(-45deg);
+        }
+    
+      100% {
+        transform: rotate(45deg);
+      }
+    }
+      @keyframes loading2 { 
+        
+        0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    
+      80% {
+        opacity: 1;
+      }
+    
+      92% {opacity: 0.8;
+      }   
+        
+      99% {transform: scale(1);
+      }
+    
+      100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+      }
+        
+      }
+    
+  
   
   
