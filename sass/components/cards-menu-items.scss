@@ -18,7 +18,7 @@
                 flex-direction: column;
                 flex: 1; 
                  padding: 15px 0px 15px 15px;
-                 /*max-width: 65%;*/
+                
                  }
     .card-title-menu, .card-subtitle-menu {
         display: inline-block;
@@ -48,12 +48,14 @@
         margin-left: 15px;
     }
     //animation delay for the page
-    .delay1 {
-        animation-delay: 0.5s;
+    .delay1 { animation-delay: 2s;
+                animation-timing-function: ease-in;
     }
-    .delay2 {
-        animation-delay: .75s;
+    .delay2 { animation-delay: 3s;
+                animation-timing-function: ease-in;
     }
-    .delay3 {
-        animation-delay: 2s;
+    .delay3 { animation-delay: 4s;
+                animation-timing-function: ease-in;
     }
+    /****** Media queries **********
+//in menu.scss 

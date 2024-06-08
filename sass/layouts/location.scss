@@ -66,6 +66,11 @@ color:#7e7e7e;
 }
 
 /****** Media queries ***********/
+//Small mobile screen (320px to 400px)
+@media only screen and (max-width: 390px) {
+    .btn {width: 100%;}
+}
+    
 //small to medium devices (tablets less/equal to 768px)
 @media only screen and (min-width: 620px) {
     .fonctionnement-box {padding: 30px 80px;
