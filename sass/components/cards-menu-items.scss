@@ -4,7 +4,7 @@
     border-radius: 20px;
     display: flex;
     margin-bottom: 25px;
-    box-shadow: 0px 4.01px 15.04px 0px #0000001A;
+    box-shadow: 0px 4.01px 15.04px 0px #0000001A;    
         
         &:hover, &:active {
             .check-choice {
@@ -48,14 +48,44 @@
         margin-left: 15px;
     }
     //animation delay for the page
-    .delay1 { animation-delay: 2s;
-                animation-timing-function: ease-in;
+    
+   .delay1 { 
+        animation:starter1 .75s;
     }
-    .delay2 { animation-delay: 3s;
-                animation-timing-function: ease-in;
+    .delay2 { 
+        animation: main1 1s;
+                
     }
-    .delay3 { animation-delay: 4s;
-                animation-timing-function: ease-in;
+    .delay3 { 
+        animation: dessert1 1.2s;
     }
-    /****** Media queries **********
-//in menu.scss 
+    @keyframes starter1 {
+        from{
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      @keyframes main1 {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      @keyframes dessert1 {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
