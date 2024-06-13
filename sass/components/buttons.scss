@@ -1,4 +1,4 @@
-//button order and explore background color
+//button order and explore -- background color and shadow
 $background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 $btn-hover: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%),
 linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
@@ -8,9 +8,12 @@ $btn-hover-shadow: 6px 6px 15px 0px #00000059;
 $btn-shadow: 0px 4px 10px 0px #00000040;
 
 //Exploration and order button - explorez nos restaurants et commander
-.btn-explore { display: flex;
+.btn-explore { 
+    display: flex;
     flex-direction: row;
-    justify-content: center;}
+    justify-content: center;
+}
+
 .btn-search {
     padding: 13px 10px;
     background: linear-gradient(#9356DC, #FF79DA);
@@ -19,11 +22,11 @@ $btn-shadow: 0px 4px 10px 0px #00000040;
     text-align: center;
     width: 186px;
 
-    &:hover {
-        background: linear-gradient(#FF79DA, #9f6ed9);
-        
-    box-shadow: $btn-hover-shadow;}
-        }
+        &:hover {
+            background: linear-gradient(#FF79DA, #9f6ed9);
+            box-shadow: $btn-hover-shadow;
+}
+}
 
      
     

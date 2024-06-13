@@ -2,6 +2,7 @@
 .restaurants {background-color: #f6f6f6;
     padding:20px;}
 
+//Cardsfor restaurants
 .card-restaurant {
     background-color: white;
     border-radius: 20px;
@@ -23,34 +24,37 @@
             color:#008766;
             padding: 8px 10px;
             font-size: 14px;
-        font-weight: 500;}
+            font-weight: 500;
+        }
             .card-content {
                 display: flex;
                 flex-direction: column;
             h3, p {
                 margin-top: 0px;
                 margin-bottom: 5px;
-                margin-left: 10px;}
+                margin-left: 10px;
+            }
     }   
            .btn-favorite {
                 position: absolute;
                 right: 40px;
-                bottom: 40px;}
-
+                bottom: 40px;
+    }
 }
+
 /****** Media queries ***********/
 // Medium devices (tablets, less/equal than 1024px)
 @media only screen and (min-width: 720px) {
-
     //Restaurants cards
 .restaurants {
 	padding: 20px 80px;
-	.cards-for-restaurant 
-    {display: flex;
-	flex-wrap: wrap;
-	row-gap: 30px;
-    justify-content: space-between;
-	.card-restaurant {width: 45%;
+	    .cards-for-restaurant {
+            display: flex;
+	        flex-wrap: wrap;
+	        row-gap: 30px;
+            justify-content: space-between;
+	                .card-restaurant {
+                        width: 45%;
 }
 } 
 }
@@ -60,27 +64,32 @@
     //Restaurants cards
     .restaurants {
         padding: 50px 120px;
-          .cards-for-restaurant {display: flex;
-              flex-wrap: wrap;
-              justify-content: space-between;
-               row-gap: 30px;
-               gap:20px;
-                 .card-restaurant {width: 45%;
+            .cards-for-restaurant {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                row-gap: 30px;
+                gap:20px;
+                     .card-restaurant {
+                        width: 45%;
 }
 }
 }
 }
+
 //Large screen desktop (less/equall to 1440px)
 @media only screen and (min-width: 1240px) {
     //Restaurants cards
     .restaurants {
         padding: 50px 120px;
-          .cards-for-restaurant {display: flex;
-              flex-wrap: wrap;
-              justify-content: space-between;
-               row-gap: 30px;
-               gap:20px;
-                 .card-restaurant {width: 480px;
+              .cards-for-restaurant {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                row-gap: 30px;
+                gap:20px;
+                        .card-restaurant {
+                            width: 480px;
 }
 }
 }

@@ -1,43 +1,58 @@
 // location container
-.location-container {display: flex;
-//flex-direction: row;
-align-items: center;
-justify-content: center;
-background-color: #eaeaea;
-box-shadow: 0px -3px 4px 0px #00000040;
-padding: 15px 0px 15px 0px;
-gap: 15px;
+.location-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea;
+    box-shadow: 0px -3px 4px 0px #00000040;
+    padding: 15px 0px 15px 0px;
+    gap: 15px;
 
- p {font-size: 16px;
-font-weight: 500;}
+        p {
+            font-size: 16px;
+            font-weight: 500;
+}
 }
 //location and exploration container
-.location-exploration-container { background-color: #f6f6f6;
+.location-exploration-container { 
+    background-color: #f6f6f6;
     padding: 30px 20px 40px 20px;
-box-shadow: 0px -2px 3px 0px #00000040;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-.txt-location-container {display: flex;
-flex-direction: column;
-//justify-content: center;
-padding-bottom: 20px;
+    box-shadow: 0px -2px 3px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-h2 {display: flex;
-justify-content: center;}
-p {font-size: 18px;
-font-weight: 300;
-display: flex;
-justify-content: center;}
-    }
+        .txt-location-container {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 20px;
+                h2 {
+                    display: flex;
+                    justify-content: center;
 }
+                p {
+                    font-size: 18px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+}
+}
+}
+
 //Fonctionnement section
-.fonctionnement-box {padding: 20px;}
-.btn-fonctionnement-container {margin-left: 20px;
-        margin-right: 20px;}
-.btn { background-color: #f6f6f6;
+.fonctionnement-box {
+    padding: 20px;
+}
+
+.btn-fonctionnement-container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn { 
+    background-color: #f6f6f6;
     border-radius: 20px;
     border: none;
     height: 72px;
@@ -49,8 +64,10 @@ justify-content: center;}
     padding-left: 0px;
     margin-bottom: 25px;
     box-shadow: 0px 4px 15px 0px #00000026;
-   }
-.fonct-number {    padding: 5px 6px 5px 6px;
+}
+
+.fonct-number {    
+    padding: 5px 6px 5px 6px;
     background-color: #9356dc;
     color: white;
     border-radius: 25px;
@@ -59,46 +76,61 @@ justify-content: center;}
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -15px;}
-.fa-mobile-screen-button, .fa-list-ul, .fa-store {padding: 20px;
-color:#7e7e7e;
-& i, &:hover {color: #9356dc;} 
+    margin-left: -15px;
+}
+
+            .fa-mobile-screen-button, .fa-list-ul, .fa-store {
+                padding: 20px;
+                color:#7e7e7e;
+
+                     & i, &:hover {
+                    color: #9356dc;
+} 
 }
 
 /****** Media queries ***********/
 //Small mobile screen (320px to 400px)
 @media only screen and (max-width: 390px) {
-    .btn {width: 100%;}
+    .btn {
+        width: 100%;
+}
 }
     
 //small to medium devices (tablets less/equal to 768px)
 @media only screen and (min-width: 620px) {
-    .fonctionnement-box {padding: 30px 80px;
+    .fonctionnement-box {
+        padding: 30px 80px;
 } 
 }
+
 // Medium devices (tablets, less/equal than 1024px)
 @media only screen and (min-width: 895px) {
 	//Front page responsive 
   //Buttons 1-2-3 fonctionnement
-  .fonctionnement-box {padding: 30px 80px;}
+  .fonctionnement-box {
+        padding: 30px 80px;
+}
   .btn-fonctionnement-container {
 		display: flex;
 	    flex-wrap: wrap;
         justify-content: center;
 		gap:25px;
-        .fonct-number{
-            padding: 6px 8px 6px 8px;
-        }
+            .fonct-number{
+                 padding: 6px 8px 6px 8px;
 }
 }
+}
+
 //Desktop devices ( less/equal than 1440px)
 @media only screen and (min-width: 1200px) {
     //Front page responsive
     //buttons 1-2-3 fonctionnement
-    .fonctionnement-box {padding: 50px 120px;}
+    .fonctionnement-box {
+        padding: 50px 120px;
+}
       .btn-fonctionnement-container { 
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            }
+}
 }

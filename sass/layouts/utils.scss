@@ -1,22 +1,32 @@
-body {font-family: roboto;
-margin: 0;}
+body {
+  font-family: roboto;
+  margin: 0;
+}
+
 p , h3 , h4 {
   margin: 0;
   padding: 0;
 }
+//Colors
 $primary:  #9356DC;
 $secondary: #FF79DA;
 $tierary: #99E2D0;
+
+//Logo
 $logo-font: Shrikhand;
 $title: Shrikhand;
 
+//Box shadow
 $shadow: 0px 2px 4px 0px #00000026;
+
+
 $txtfontbold: (
   font-size: 16px,
   font-weight: 500);
 
 h2 {font-size: 24px;
 font-weight: 700;}
+
 a {text-decoration: none;
 color: black;}
 
