@@ -6,7 +6,8 @@
 
 .nav-bar { margin-left: 20px;
              margin-top: 20px;
-             margin-bottom: -55px;
+             position:absolute;
+             left: 0px;
 }
 .arrow {font-size: 25px;
     padding: 20px;
@@ -39,8 +40,10 @@
 }
 }
     //menu header formatting for menu pages
-.menu {padding-right:20px;
-        padding-left:20px;
+.menu {
+        max-width: 1050px;
+        margin-left: auto;
+        margin-right: auto;
         background-color: #eaeaea;
         margin-top: -50px;
         border-radius: 40px 40px 0px 0px;
@@ -55,7 +58,8 @@
         /****** Media queries ***********/
 //Small screen devices (max-width: 480px)
  @media only screen and (max-width: 480px) {
-            .logo-container {scale: 0.9;}
+    .menu { padding-left: 10px;
+        padding-right: 10px;}
             .card-content-menu {width: 150px;}
             .card-title-menu, .card-subtitle-menu {max-width: 210px;}
         }
@@ -63,32 +67,27 @@
     //Medium size screen devices (screen size from 700 to 1100 wide)
 @media only screen and (min-width: 700px) {
     .photo {height: 300px;}
-    .menu {margin-right:100px;
-            margin-left:100px;}
+    .menu { margin-left: auto;
+            margin-right: auto;}
 }
-//Medium size screen (from 900 to 1100 wide)
-//padding for menu
-@media only screen and (min-width: 900px) {
-    .menu {padding-left: 100px;
-            padding-right: 100px;}
-}
+
 //Desktop/Large size screen (from 1100 wide)
 @media only screen and (min-width: 1100px) {
     .photo {height: 385px;}
-    .menu {padding-left: 120px;
-            padding-right: 120px;
-            margin-right:120px;
-            margin-left: 120px;}
+    .menu {margin-left: auto;
+        margin-right: auto;
+        }
     .title {justify-content: center;}
-    .card-menu {width: 635px;}
+    .card-menu {width: 635px;
+    margin-left: auto;
+    margin-right: auto;}
+    .starters-menu, .main-course-menu, .desserts-menu {width: 635px;
+    margin-left: auto;
+    margin-right: auto;}
 }
 //Desktop screen from 1300px wide
 @media only screen and (min-width: 1300px) {
     .photo {height: 420px;}
-    .menu {margin-top: -35px;
-        padding-left: 180px;
-            padding-right: 180px;
-            margin-right: 180px;
-            margin-left: 180px;}
+    
 }
     

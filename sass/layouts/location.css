@@ -61,6 +61,9 @@
   margin-bottom: 25px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
 }
+.btn:hover {
+  background: linear-gradient(#9356dc, #ff79da);
+}
 
 .fonct-number {
   padding: 5px 6px 5px 6px;
@@ -78,9 +81,6 @@
 .fa-mobile-screen-button, .fa-list-ul, .fa-store {
   padding: 20px;
   color: #7e7e7e;
-}
-.fa-mobile-screen-button i, .fa-mobile-screen-button:hover, .fa-list-ul i, .fa-list-ul:hover, .fa-store i, .fa-store:hover {
-  color: #9356dc;
 }
 
 /****** Media queries ***********/

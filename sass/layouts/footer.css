@@ -1,14 +1,23 @@
-.footer-main-container {
-  background-color: black;
-  display: flex;
+.footer-main-container
+{
+	background-color: black;
+	display: flex;
 }
-.footer-main-container .footer-container {
-  margin-left: 20px;
+
+.footer-main-container .footer-container
+{
+	margin-left: 20px;
 }
-.footer-main-container .footer-logo-container {
-  display: flex;
-  flex-direction: column;
+
+.footer-main-container .footer-logo-container
+{
+	display: flex;
+	flex-direction: column;
 }
-.footer-main-container .footer-links {
-  color: #FFFFFF;
-}/*# sourceMappingURL=footer.css.map */
+
+.footer-main-container .footer-links
+{
+	color: #FFFFFF;
+}
+
+/*# sourceMappingURL=footer.css.map */

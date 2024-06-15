@@ -31,6 +31,8 @@
 .card-restaurant .card-content {
   display: flex;
   flex-direction: column;
+  height: 70px;
+  justify-content: center;
 }
 .card-restaurant .card-content h3, .card-restaurant .card-content p {
   margin-top: 0px;

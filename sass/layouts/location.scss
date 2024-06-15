@@ -64,6 +64,9 @@
     padding-left: 0px;
     margin-bottom: 25px;
     box-shadow: 0px 4px 15px 0px #00000026;
+
+    &:hover {background: linear-gradient(#9356dc, #ff79da)
+                }
 }
 
 .fonct-number {    
@@ -81,12 +84,10 @@
 
             .fa-mobile-screen-button, .fa-list-ul, .fa-store {
                 padding: 20px;
-                color:#7e7e7e;
+                color:#7e7e7e;} 
 
-                     & i, &:hover {
-                    color: #9356dc;
-} 
-}
+    
+
 
 /****** Media queries ***********/
 //Small mobile screen (320px to 400px)
