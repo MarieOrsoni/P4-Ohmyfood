@@ -1,22 +1,18 @@
-.footer-main-container
-{
+.footer-main-container {
 	background-color: black;
 	display: flex;
 }
 
-.footer-main-container .footer-container
-{
+.footer-main-container .footer-container {
 	margin-left: 20px;
 }
 
-.footer-main-container .footer-logo-container
-{
+.footer-main-container .footer-logo-container {
 	display: flex;
 	flex-direction: column;
 }
 
-.footer-main-container .footer-links
-{
+.footer-main-container .footer-links {
 	color: #FFFFFF;
 }
 

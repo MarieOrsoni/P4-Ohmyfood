@@ -8,9 +8,9 @@
     padding: 15px 0px 15px 0px;
     gap: 15px;
 
-        p {
-            font-size: 16px;
-            font-weight: 500;
+p {
+    font-size: 16px;
+    font-weight: 500;
 }
 }
 //location and exploration container
@@ -24,19 +24,19 @@
     align-items: center;
     text-align: center;
 
-        .txt-location-container {
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 20px;
-                h2 {
-                    display: flex;
-                    justify-content: center;
+.txt-location-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+h2 {
+    display: flex;
+    justify-content: center;
 }
-                p {
-                    font-size: 18px;
-                    font-weight: 300;
-                    display: flex;
-                    justify-content: center;
+p {
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
 }
 }
 }
@@ -65,8 +65,9 @@
     margin-bottom: 25px;
     box-shadow: 0px 4px 15px 0px #00000026;
 
-    &:hover {background: linear-gradient(#9356dc, #ff79da)
-                }
+    &:hover {
+    background: linear-gradient(#FF79DA, #9f6ed9);
+}
 }
 
 .fonct-number {    
@@ -82,25 +83,24 @@
     margin-left: -15px;
 }
 
-            .fa-mobile-screen-button, .fa-list-ul, .fa-store {
-                padding: 20px;
-                color:#7e7e7e;} 
+.fa-mobile-screen-button, .fa-list-ul, .fa-store {
+    padding: 20px;
+    color:#7e7e7e;
+} 
 
     
-
-
 /****** Media queries ***********/
 //Small mobile screen (320px to 400px)
 @media only screen and (max-width: 390px) {
-    .btn {
-        width: 100%;
+.btn {
+    width: 100%;
 }
 }
     
 //small to medium devices (tablets less/equal to 768px)
 @media only screen and (min-width: 620px) {
-    .fonctionnement-box {
-        padding: 30px 80px;
+.fonctionnement-box {
+    padding: 30px 80px;
 } 
 }
 
@@ -108,16 +108,16 @@
 @media only screen and (min-width: 895px) {
 	//Front page responsive 
   //Buttons 1-2-3 fonctionnement
-  .fonctionnement-box {
-        padding: 30px 80px;
+.fonctionnement-box {
+    padding: 30px 80px;
 }
-  .btn-fonctionnement-container {
-		display: flex;
-	    flex-wrap: wrap;
-        justify-content: center;
-		gap:25px;
-            .fonct-number{
-                 padding: 6px 8px 6px 8px;
+.btn-fonctionnement-container {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	gap:25px;            
+.fonct-number {
+    padding: 6px 8px 6px 8px;
 }
 }
 }
@@ -126,12 +126,12 @@
 @media only screen and (min-width: 1200px) {
     //Front page responsive
     //buttons 1-2-3 fonctionnement
-    .fonctionnement-box {
-        padding: 50px 120px;
+.fonctionnement-box {
+    padding: 50px 120px;
 }
-      .btn-fonctionnement-container { 
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+.btn-fonctionnement-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 }

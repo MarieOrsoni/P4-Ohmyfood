@@ -1,93 +1,161 @@
 //Menu header - logo and arrow
 
-.logo-container {display: flex;
-    justify-content: center;}
-.logo {justify-content: center;}
-
-.nav-bar { margin-left: 20px;
-             margin-top: 20px;
-             position:absolute;
-             left: 0px;
+.logo-container {
+    display: flex;
+    justify-content: center;
 }
-.arrow {font-size: 25px;
+.logo {
+    justify-content: center;
+}
+
+.nav-bar {
+    margin-left: 20px;
+    margin-top: 20px;
+    position:absolute;
+    left: 0px;
+}
+.arrow {
+    font-size: 25px;
     padding: 20px;
-    padding-top: 20px;}
+    padding-top: 20px;
+}
 
 //Photo - header
-.photo {height: 275px;
-        width: 100%;
-        position: relative;
-        z-index: -1;
-        object-fit: cover;
-    }
+.photo {
+    height: 275px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
+}
 
 //Restaurant name and favorite button
 
-.page-title { font-family: $title;
-                font-size: 28px;
-                font-weight: 400;
-                font-style: italic;
-                }
+.page-title { 
+    font-family: $title;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: italic;
+}
 
-.title {display: flex;
-        flex-direction: row;
-        justify-content: left;
-        align-items: center;
-        padding-top: 25px;   
-        .btn-favorite {
-             padding-left: 50px;
-             font-size: 25px;
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-top: 25px;   
+
+.btn-favorite {
+    padding-left: 50px;
+    font-size: 25px;
 }
 }
     //menu header formatting for menu pages
-.menu {
-        max-width: 1050px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #eaeaea;
-        margin-top: -50px;
-        border-radius: 40px 40px 0px 0px;
-        .starters, .main-course, .desserts, .btn-explore {padding-bottom: 20px;}
-    }
 
-    .menu-header { font-size: 20px;
-        font-weight: 300;
-       border-bottom:3px solid $tierary;
-        width: 40px;}
+.menu-header { 
+    font-size: 20px;
+    font-weight: 300;
+    border-bottom:3px solid $tierary;
+    width: 40px;
+}
+.menu {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eaeaea;
+    margin-top: -50px;
+    border-radius: 40px 40px 0px 0px;
+    padding-left: 10px; 
+    padding-right: 10px;
+
+.starters, .main-course, .desserts, .btn-explore {
+    padding-bottom: 20px;
+}
+}
+
+.menu-header { 
+    font-size: 20px;
+    font-weight: 300;
+    border-bottom:3px solid $tierary;
+    width: 40px;
+}
 
         /****** Media queries ***********/
 //Small screen devices (max-width: 480px)
  @media only screen and (max-width: 480px) {
-    .menu { padding-left: 10px;
-        padding-right: 10px;}
-            .card-content-menu {width: 150px;}
-            .card-title-menu, .card-subtitle-menu {max-width: 210px;}
-        }
+.nav-bar {
+    margin-left: 0;
+}
+.menu {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-content-menu {
+    width: 150px;
+}
+.card-title-menu, .card-subtitle-menu {
+    max-width: 210px;
+}
+}
    
     //Medium size screen devices (screen size from 700 to 1100 wide)
 @media only screen and (min-width: 700px) {
-    .photo {height: 300px;}
-    .menu { margin-left: auto;
-            margin-right: auto;}
+.photo {
+    height: 320px;
+}
+.menu { 
+margin-left: auto;
+margin-right: auto;
+}
+.title {
+    justify-content: center;
+}
+.card-menu { 
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.starters-menu, .main-course-menu, .desserts-menu {
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media only screen and (min-width: 800px) {
+.photo {
+    height: 345px;
+}
 }
 
 //Desktop/Large size screen (from 1100 wide)
 @media only screen and (min-width: 1100px) {
-    .photo {height: 385px;}
-    .menu {margin-left: auto;
-        margin-right: auto;
-        }
-    .title {justify-content: center;}
-    .card-menu {width: 635px;
+.photo {
+    height: 385px;
+}
+.menu {
     margin-left: auto;
-    margin-right: auto;}
-    .starters-menu, .main-course-menu, .desserts-menu {width: 635px;
+    margin-right: auto;
+}
+.title {
+    justify-content: center;
+}
+.card-menu {
+    width: 635px;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+}
+.starters-menu, .main-course-menu, .desserts-menu {
+    width: 635px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 //Desktop screen from 1300px wide
 @media only screen and (min-width: 1300px) {
-    .photo {height: 420px;}
-    
+.photo 
+{
+    height: 420px;
+}
 }
     

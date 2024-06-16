@@ -50,13 +50,14 @@
     //Restaurants cards
 .restaurants {
 	padding: 20px 80px;
-	    .cards-for-restaurant {
-            display: flex;
-	        flex-wrap: wrap;
-	        row-gap: 30px;
-            justify-content: space-between;
-	                .card-restaurant {
-                        width: 45%;
+
+.cards-for-restaurant {
+    display: flex;
+	flex-wrap: wrap;
+	row-gap: 30px;
+    justify-content: space-between;
+.card-restaurant {
+     width: 45%;
 }
 } 
 }
@@ -64,16 +65,18 @@
 //Desktop devices ( between 1120px and 1220px )
 @media only screen and (min-width: 1120px) {
     //Restaurants cards
-    .restaurants {
-        padding: 50px 120px;
-            .cards-for-restaurant {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                row-gap: 30px;
-                gap:20px;
-                     .card-restaurant {
-                        width: 45%;
+.restaurants {
+    padding: 50px 120px;
+
+.cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    gap:20px;
+
+.card-restaurant {
+    width: 45%;
 }
 }
 }
@@ -82,16 +85,18 @@
 //Large screen desktop (less/equall to 1440px)
 @media only screen and (min-width: 1240px) {
     //Restaurants cards
-    .restaurants {
-        padding: 50px 120px;
-              .cards-for-restaurant {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                row-gap: 30px;
-                gap:20px;
-                        .card-restaurant {
-                            width: 480px;
+.restaurants {
+    padding: 50px 120px;
+
+.cards-for-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    gap:20px;
+
+.card-restaurant {
+    width: 480px;
 }
 }
 }

@@ -2,20 +2,20 @@
     background-color: black;
     padding: 20px;
     
-        .footer-logo {
-        font-family: $logo-font;
+.footer-logo {
+    font-family: $logo-font;
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+}
+    &-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+    &-links a {
         color: white;
-        font-style: italic;
-        font-weight: 400;
-    }
-        &-links {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-    }
-        &-links a {
-            color: white;
-    }
+}
     .links__icon {
         padding-right: 10px;
     }

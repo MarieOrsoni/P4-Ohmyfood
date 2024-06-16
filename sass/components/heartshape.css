@@ -9,7 +9,7 @@
   padding-top: 5px;
 }
 .btn-favorite i__full {
-  position: hidden;
+  visibility: hidden;
 }
 .btn-favorite .favorite__full {
   opacity: 0;
@@ -27,4 +27,5 @@
   background-clip: text;
   -webkit-background-clip: text;
   transition: 300ms ease-out;
-}/*# sourceMappingURL=heartshape.css.map */
+}
+/*# sourceMappingURL=heartshape.css.map */
