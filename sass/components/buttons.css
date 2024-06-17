@@ -1,12 +1,10 @@
-.btn-explore 
-{
+.btn-explore {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.btn-search 
-{
+.btn-search {
   padding: 13px 10px;
   background: linear-gradient(#9356DC, #FF79DA);
   border-radius: 25px;
@@ -14,9 +12,7 @@
   text-align: center;
   width: 186px;
 }
-.btn-search:hover 
-{
+.btn-search:hover {
   background: linear-gradient(#FF79DA, #9f6ed9);
   box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.3490196078);
-}
-/*# sourceMappingURL=buttons.css.map */
+}/*# sourceMappingURL=buttons.css.map */
