@@ -4,7 +4,7 @@ body {
   max-width: 1300px;
 }
 
-p, h3, h4 {
+p, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
 }

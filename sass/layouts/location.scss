@@ -27,7 +27,7 @@ p {
 .txt-location-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 h2 {
     display: flex;
     justify-content: center;
@@ -40,11 +40,13 @@ p {
 }
 }
 }
+.txt-location-title { margin-bottom: 20px;}
 
 //Fonctionnement section
 .fonctionnement-box {
     padding: 20px;
 }
+.fonctionnement-container {margin-bottom: 20px;}
 
 .btn-fonctionnement-container {
     margin-left: 20px;

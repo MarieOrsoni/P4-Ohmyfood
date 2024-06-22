@@ -25,7 +25,7 @@
 .location-exploration-container .txt-location-container {
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .location-exploration-container .txt-location-container h2 {
   display: flex;
@@ -38,8 +38,16 @@
   justify-content: center;
 }
 
+.txt-location-title {
+  margin-bottom: 20px;
+}
+
 .fonctionnement-box {
   padding: 20px;
+}
+
+.fonctionnement-container {
+  margin-bottom: 20px;
 }
 
 .btn-fonctionnement-container {

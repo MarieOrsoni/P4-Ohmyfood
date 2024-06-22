@@ -3,6 +3,10 @@
   padding: 20px;
 }
 
+.restaurant-title {
+  margin-bottom: 20px;
+}
+
 .card-restaurant {
   background-color: white;
   border-radius: 20px;
