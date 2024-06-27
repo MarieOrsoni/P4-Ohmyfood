@@ -51,20 +51,17 @@
 
 /****** Media queries ***********/
 @media only screen and (min-width: 720px) {
-  .restaurants {
-    padding: 20px 80px;
-  }
-  .restaurants .cards-for-restaurant {
+  .cards-for-restaurant {
     display: flex;
     flex-wrap: wrap;
     row-gap: 30px;
     justify-content: space-between;
   }
-  .restaurants .cards-for-restaurant .card-restaurant {
+  .cards-for-restaurant .card-restaurant {
     width: 45%;
   }
 }
-@media only screen and (min-width: 1120px) {
+@media only screen and (min-width: 1025px) {
   .restaurants {
     padding: 50px 120px;
   }

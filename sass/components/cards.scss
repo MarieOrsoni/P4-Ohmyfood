@@ -50,9 +50,6 @@
 // Medium devices (tablets, less/equal than 1024px)
 @media only screen and (min-width: 720px) {
     //Restaurants cards
-.restaurants {
-	padding: 20px 80px;
-
 .cards-for-restaurant {
     display: flex;
 	flex-wrap: wrap;
@@ -63,9 +60,9 @@
 }
 } 
 }
-}
+
 //Desktop devices ( between 1120px and 1220px )
-@media only screen and (min-width: 1120px) {
+@media only screen and (min-width: 1025px) {
     //Restaurants cards
 .restaurants {
     padding: 50px 120px;

@@ -46,24 +46,22 @@ p {
 .fonctionnement-box {
     padding: 20px;
 }
-.fonctionnement-container {margin-bottom: 20px;}
-
 .btn-fonctionnement-container {
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 0px 0px 0px 10px;
 }
+.fonctionnement-container {margin-bottom: 20px;}
 
 .btn { 
     background-color: #f6f6f6;
     border-radius: 20px;
     border: none;
     height: 72px;
-    width: 335px;
+    width: 100%;
     font-size: 16px;
     font-weight: 600;
     display: flex;
     align-items: center;
-    padding-left: 0px;
+    padding-right: 5px;
     margin-bottom: 25px;
     box-shadow: 0px 4px 15px 0px #00000026;
 
@@ -92,40 +90,27 @@ p {
 
     
 /****** Media queries ***********/
-//Small mobile screen (320px to 400px)
-@media only screen and (max-width: 390px) {
-.btn {
-    width: 100%;
-}
-}
-    
-//small to medium devices (tablets less/equal to 768px)
-@media only screen and (min-width: 620px) {
-.fonctionnement-box {
-    padding: 30px 80px;
-} 
-}
 
 // Medium devices (tablets, less/equal than 1024px)
 @media only screen and (min-width: 895px) {
 	//Front page responsive 
   //Buttons 1-2-3 fonctionnement
-.fonctionnement-box {
-    padding: 30px 80px;
-}
 .btn-fonctionnement-container {
 	display: flex;
 	flex-wrap: wrap;
-    justify-content: center;
-	gap:25px;            
-.fonct-number {
-    padding: 6px 8px 6px 8px;
+    justify-items: center;
+	justify-content: space-around;           
+        .btn {
+            width: 35%;
+    }
+            .fonct-number {
+                padding: 6px 8px 6px 8px;
 }
 }
 }
 
 //Desktop devices ( less/equal than 1440px)
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1025px) {
     //Front page responsive
     //buttons 1-2-3 fonctionnement
 .fonctionnement-box {
@@ -135,5 +120,8 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+        .btn { 
+            width: 30%;
+}
 }
 }

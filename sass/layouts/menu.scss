@@ -1,5 +1,8 @@
 //Menu header - logo and arrow
 
+header {
+    position: relative;
+}
 .logo-container {
     display: flex;
     justify-content: center;
@@ -50,9 +53,11 @@
     padding-left: 30px;
     font-size: 25px;
     margin-bottom: 3px;
+    position: absolute;
+    right: 50px;
 }
 }
-    //menu header formatting for menu pages
+//menu-header for blocs / formatting for menu pages
 
 .menu-header { 
     font-size: 20px;
@@ -62,7 +67,6 @@
     margin-bottom: 20px;
 }
 .menu {
-    max-width: 1050px;
     margin-left: auto;
     margin-right: auto;
     background-color: #eaeaea;
@@ -70,6 +74,7 @@
     border-radius: 40px 40px 0px 0px;
     padding-left: 10px; 
     padding-right: 10px;
+    position: relative;
 
 .starters, .main-course, .desserts, .btn-explore {
     padding-bottom: 20px;
@@ -83,16 +88,10 @@
     width: 40px;
 }
 
+
         /****** Media queries ***********/
 //Small screen devices (max-width: 480px)
  @media only screen and (max-width: 480px) {
-.nav-bar {
-    margin-left: 0;
-}
-.menu {
-    padding-left: 10px;
-    padding-right: 10px;
-}
 .card-content-menu {
     width: 150px;
 }
@@ -109,6 +108,8 @@
 .menu { 
 margin-left: auto;
 margin-right: auto;
+padding-left: 50px;
+padding-right: 50px;
 }
 .title {
     justify-content: center;
@@ -125,20 +126,25 @@ margin-right: auto;
 }
 }
 
+//****Media queries****//
+//Small screens 
 @media only screen and (min-width: 800px) {
 .photo {
     height: 345px;
 }
 }
 
-//Desktop/Large size screen (from 1100 wide)
-@media only screen and (min-width: 1100px) {
+//Desktop/Large size screen (from 1025 wide)
+@media only screen and (min-width: 1025px) {
+    .arrow {padding: 0px;}
 .photo {
     height: 385px;
 }
 .menu {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .title {
     justify-content: center;
@@ -160,8 +166,3 @@ margin-right: auto;
     height: 420px;
 }
 }
-
-
-    
-
-    
