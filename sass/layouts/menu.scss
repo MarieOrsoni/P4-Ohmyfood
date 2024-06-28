@@ -10,7 +10,7 @@ header {
 .logo {
     justify-content: center;
 }
-
+//Arrow section
 .nav-bar {
     margin-left: 20px;
     margin-top: 20px;
@@ -90,18 +90,31 @@ header {
 
 
         /****** Media queries ***********/
+//Smaller screen devices (max-width: 400px)
+@media only screen and (max-width: 400px) {
+.nav-bar { 
+    margin-left: 0;
+}
+.title {
+        .btn-favorite { 
+            position: relative;
+            right: 0;
+        }
+}
+}
+    
 //Small screen devices (max-width: 480px)
  @media only screen and (max-width: 480px) {
-.card-content-menu {
-    width: 150px;
+    .card-content-menu {
+        width: 150px;
 }
-.card-title-menu, .card-subtitle-menu {
-    max-width: 210px;
+    .card-title-menu, .card-subtitle-menu {
+        max-width: 210px;
 }
 }
    
-    //Medium size screen devices (screen size from 700 to 1100 wide)
-@media only screen and (min-width: 700px) {
+//Medium size screen devices (screen size from 700 to 1100 wide)
+@media only screen and (min-width: 768px) {
 .photo {
     height: 320px;
 }
@@ -113,6 +126,10 @@ padding-right: 50px;
 }
 .title {
     justify-content: center;
+    .btn-favorite { 
+        position: relative;
+        right: 0;
+    }
 }
 .card-menu { 
     max-width: 630px;
@@ -126,20 +143,14 @@ padding-right: 50px;
 }
 }
 
-//****Media queries****//
-//Small screens 
-@media only screen and (min-width: 800px) {
-.photo {
-    height: 345px;
-}
-}
-
 //Desktop/Large size screen (from 1025 wide)
 @media only screen and (min-width: 1025px) {
-    .arrow {padding: 0px;}
+.arrow {
+    padding: 0px;
+}
 .photo {
     height: 385px;
-}
+    }
 .menu {
     margin-left: 120px;
     margin-right: 120px;

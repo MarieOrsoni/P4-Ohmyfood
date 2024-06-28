@@ -422,6 +422,15 @@ header {
 }
 
 /****** Media queries ***********/
+@media only screen and (max-width: 400px) {
+  .nav-bar {
+    margin-left: 0;
+  }
+  .title .btn-favorite {
+    position: relative;
+    right: 0;
+  }
+}
 @media only screen and (max-width: 480px) {
   .card-content-menu {
     width: 150px;
@@ -430,7 +439,7 @@ header {
     max-width: 210px;
   }
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 768px) {
   .photo {
     height: 320px;
   }
@@ -443,6 +452,10 @@ header {
   .title {
     justify-content: center;
   }
+  .title .btn-favorite {
+    position: relative;
+    right: 0;
+  }
   .card-menu {
     max-width: 630px;
     margin-left: auto;
@@ -454,11 +467,11 @@ header {
     margin-right: auto;
   }
 }
-@media only screen and (min-width: 800px) {
-  .photo {
+/*@media only screen and (min-width: 800px) {
+.photo {
     height: 345px;
-  }
 }
+}*/
 @media only screen and (min-width: 1025px) {
   .arrow {
     padding: 0px;
